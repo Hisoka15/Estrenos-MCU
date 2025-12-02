@@ -22,9 +22,7 @@ curl_close($ch);
 </head>
 
 <main>
-    <pre style="font-size: small; overflow: scroll; height: 250px;">
-    <?php var_dump($data); ?>
-</pre>
+ 
     <section>
         <img src="<?= $data["poster_url"];?>"  width="300" alt="Poster de <?= $data["title"]; ?>"
         style="border-radius: 16px"/>
